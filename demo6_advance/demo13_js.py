@@ -32,5 +32,9 @@ driver.execute_script("arguments[0].value='28/04/2000'",element)
 #
 # driver.execute_script("arguments[0].value='28/04/2000';arguments[1].value='28/04/2000'",element1,element2)
 
+# https://www.royalcaribbean.com/account/create
+# element=driver.find_element(By.XPATH,"//input[@aria-labelledby='emailConsent']")
+# driver.execute_script("arguments[0].click()",element)
+
 
 time.sleep(5)
